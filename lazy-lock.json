@@ -1,0 +1,18 @@
+{
+  "barbar.nvim": { "branch": "master", "commit": "53b5a2f34b68875898f0531032fbf090e3952ad7" },
+  "catppuccin": { "branch": "main", "commit": "65bf0b16f57a3db70d6a93ac68882dd9a31d0565" },
+  "close-buffers.nvim": { "branch": "master", "commit": "3acbcad1211572342632a6c0151f839e7dead27f" },
+  "fern.vim": { "branch": "main", "commit": "2cf57c60df508d15878e03c1e8fb12506384212a" },
+  "gitsigns.nvim": { "branch": "main", "commit": "7c27a30450130cd59c4994a6755e3c5d74d83e76" },
+  "hlchunk.nvim": { "branch": "main", "commit": "ba6e2347177fec8ec6af4ae26d11a468c9e0ca72" },
+  "lazy.nvim": { "branch": "main", "commit": "cf8ecc2c5e4332760431a33534240b0cbc6680ab" },
+  "nvim-web-devicons": { "branch": "master", "commit": "19d257cf889f79f4022163c3fbb5e08639077bd8" },
+  "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
+  "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
+  "toggleterm.nvim": { "branch": "main", "commit": "48be57eaba817f038d61bbf64d2c597f578c0827" },
+  "trash-cli": { "branch": "master", "commit": "73e5892830aa93dfe3e837f84363ffac35a6003d" },
+  "vim-fern-git-status": { "branch": "master", "commit": "151336335d3b6975153dad77e60049ca7111da8e" },
+  "vim-fern-renderer-nerdfont": { "branch": "master", "commit": "325629c68eb543229715b68920fbcb92b206beb6" },
+  "vim-glyph-palette": { "branch": "master", "commit": "acc67da9640ff4eb22bae1c0a740b648d5441a89" },
+  "vim-nerdfont": { "branch": "master", "commit": "4dec28b62e6f5a0d6f99067cfef1159eefe2014d" }
+}
