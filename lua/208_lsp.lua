@@ -1,17 +1,6 @@
 local set = vim.keymap.set
 local autocmd = vim.api.nvim_create_autocmd
 
-local lspconfig = require("lspconfig")
-local mason_lspconfig = require("mason-lspconfig")
-
---autocmd("BufRead", {
---  desc = "React FileType",
---  pattern = "*.tsx",
---  callback = function ()
---    vim.opt.filetype="typesctiptreact"
---  end
---})
-
 autocmd("FileType", {
   desc = "launch TSServer",
   pattern = {"typescriptreact", "typescript"},
