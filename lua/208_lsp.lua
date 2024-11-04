@@ -36,13 +36,28 @@ autocmd("FileType", {
   end
 })
 
-require("mason").setup()
-mason_lspconfig.setup()
-mason_lspconfig.setup_handlers({
-  function(server_name)
-    lspconfig[server_name].setup({})
-  end,
+autocmd("FileType", {
+  desc = "Launch Clangd",
+  pattern = {"c","cpp"},
+  callback = function()
+    vim.lsp.start({
+      name = "clangd",
+      cmd = { "clangd" },
+    })
+  end
 })
+
+autocmd("FileType", {
+  desc = "lua_ls",
+  pattern = {"lua"},
+  callback = function()
+    vim.lsp.start({
+      name = "lua_ls",
+      cmd = { "lua-language-server" },
+    })
+  end
+})
+
 
 set('n','H','<cmd>lua vim.lsp.buf.hover()<CR>')
 set('n','gd','<cmd>lua vim.lsp.buf.definition()<CR>')

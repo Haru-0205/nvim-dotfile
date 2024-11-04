@@ -3,6 +3,7 @@ return {
   name = "catppuccin",
   priority = 1000,
   opts = {
-    fravour = "frappe"
+    fravour = "frappe",
+    transparent_background = true,
   }
 }
